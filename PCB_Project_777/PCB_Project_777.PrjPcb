@@ -33,6 +33,7 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 OutputPath=Project Outputs
 LogFolderPath=..\Panel Templates\Project Logs
+ManagedProjectGUID=
 IncludeDesignInRelease=0
 
 [Preferences]
@@ -141,85 +142,102 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document7]
+DocumentPath=C:\Testing Materials\TestProjects\EX384_variants\EX384.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [Parameter1]
-Name=SCH_REV
-Value=A
+Name=CAGE_CODE
+Value=?????
 
 [Parameter2]
-Name=PCB_REV
-Value=A
-
-[Parameter3]
-Name=PCB_PART_NUMBER
-Value=<PCB PN>
-
-[Parameter4]
-Name=PCB_ENGINEER_APP_DATE
-Value=--/--/----
-
-[Parameter5]
-Name=PCB_ENGINEER
-Value=- -----
-
-[Parameter6]
-Name=PCB_DWG_NO
-Value=<PCB DWG NO>
-
-[Parameter7]
-Name=PCB_DESIGNER_APP_DATE
-Value=--/--/----
-
-[Parameter8]
-Name=PCB_DESIGNER
-Value=- -----
-
-[Parameter9]
-Name=PCB_CHECKER_APP_DATE
-Value=--/--/----
-
-[Parameter10]
-Name=PCB_CHECKER
-Value=- -----
-
-[Parameter11]
-Name=PCB_ASSEMBLY_NO
-Value=<PCB ASSY NO>
-
-[Parameter12]
-Name=PCB_ANG_TOL
-Value=+/-1/2
-
-[Parameter13]
-Name=PCB_3_DEC_TOL
-Value=+/-.010
-
-[Parameter14]
-Name=PCB_2_DEC_TOL
-Value=+/-.01
-
-[Parameter15]
-Name=DOC_NO_SCH_DWG
-Value=<SCH DWG NO>
-
-[Parameter16]
-Name=DOC_NO_FAB_DWG
-Value=<FAB DWG NO>
-
-[Parameter17]
-Name=DOC_NO_BOM
-Value=<BOM DOC NO>
-
-[Parameter18]
-Name=DOC_NO_ASSY_DWG
-Value=<ASSY DWG NO>
-
-[Parameter19]
 Name=CONTRACT_NUMBER
 Value=<CONTRACT NO>
 
+[Parameter3]
+Name=DOC_NO_ASSY_DWG
+Value=<ASSY DWG NO>
+
+[Parameter4]
+Name=DOC_NO_BOM
+Value=<BOM DOC NO>
+
+[Parameter5]
+Name=DOC_NO_FAB_DWG
+Value=<FAB DWG NO>
+
+[Parameter6]
+Name=DOC_NO_SCH_DWG
+Value=<SCH DWG NO>
+
+[Parameter7]
+Name=PCB_2_DEC_TOL
+Value=+/-.01
+
+[Parameter8]
+Name=PCB_3_DEC_TOL
+Value=+/-.010
+
+[Parameter9]
+Name=PCB_ANG_TOL
+Value=+/-1/2
+
+[Parameter10]
+Name=PCB_ASSEMBLY_NO
+Value=<PCB ASSY NO>
+
+[Parameter11]
+Name=PCB_CHECKER
+Value=- -----
+
+[Parameter12]
+Name=PCB_CHECKER_APP_DATE
+Value=--/--/----
+
+[Parameter13]
+Name=PCB_DESIGNER
+Value=- -----
+
+[Parameter14]
+Name=PCB_DESIGNER_APP_DATE
+Value=--/--/----
+
+[Parameter15]
+Name=PCB_DWG_NO
+Value=<PCB DWG NO>
+
+[Parameter16]
+Name=PCB_ENGINEER
+Value=- -----
+
+[Parameter17]
+Name=PCB_ENGINEER_APP_DATE
+Value=--/--/----
+
+[Parameter18]
+Name=PCB_PART_NUMBER
+Value=<PCB PN>
+
+[Parameter19]
+Name=PCB_REV
+Value=A
+
 [Parameter20]
-Name=CAGE_CODE
-Value=?????
+Name=SCH_REV
+Value=A
 
 [Configuration1]
 Name=Default Configuration
@@ -379,7 +397,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=\\KIVCORPDC02\Canon MF247dw (Kyiv Office)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -811,36 +829,6 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
