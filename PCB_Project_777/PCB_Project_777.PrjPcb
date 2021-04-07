@@ -33,11 +33,7 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 OutputPath=Project Outputs
 LogFolderPath=..\Panel Templates\Project Logs
-ManagedProjectGUID=20ED5965-BE24-45ED-ADC2-35A343D3F1CE
-VaultGUID=2B7C41A3-7B46-45E0-A046-0ED0DF9A0D5F
-ReleaseVaultName=000001_VCS_Verification
-ItemGUID=20ED5965-BE24-45ED-ADC2-35A343D3F1CE
-IncludeDesignInRelease=0
+
 
 [Preferences]
 PrefsVaultGUID=
